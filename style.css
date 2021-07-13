@@ -1,0 +1,37 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap');
+
+
+/* 1st section */
+body{
+    font-family: 'Poppins', sans-serif;
+   background-color: blue;
+   
+}
+.container{
+    display: flex;
+    margin-bottom: 150px;
+  color: white;
+  position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    padding-left: 150px;
+}
+.tournament{
+    width: 50%;
+    
+}
+.container img{
+    width: 556px;
+    height: 438px;
+    left: 1299px;
+    top: 153px;
+}
+.link-button{
+text-decoration: none;
+background-color: #E02C6D;
+padding: 10px 24px 10px 24px;
+color: wheat;
+}
