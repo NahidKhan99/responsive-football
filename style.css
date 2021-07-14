@@ -4,34 +4,51 @@
 
 /* 1st section */
 body{
-    font-family: 'Poppins', sans-serif;
-   background-color: blue;
-   
+    font-family: 'Poppins', sans-serif;  
+    margin: 0%; 
 }
 .container{
     display: flex;
-    margin-bottom: 150px;
-  color: white;
-  position: absolute;
-    width: 485px;
-    height: 230px;
-    left: 156px;
-    top: 207px;
-    padding-left: 150px;
-}
-.tournament{
-    width: 50%;
+} 
+h1{
+    font-size: 40px;
     
 }
-.container img{
-    width: 556px;
-    height: 438px;
-    left: 1299px;
-    top: 153px;
+.half-width{
+    width: 50%;
+    padding-left: 2px;
+    background-color: blue;
+    
+}
+.half-width img{
+    width: 70%;
 }
 .link-button{
 text-decoration: none;
 background-color: #E02C6D;
 padding: 10px 24px 10px 24px;
 color: wheat;
+}
+
+/* Player style */
+.flex-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(400px,1fr));
+    
+    grid-gap: 10px;
+    
+}
+.players{
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px  4px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.players img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
 }
